@@ -18,6 +18,15 @@
         app:cnb_textColor="@color/colorPrimary" />
 
 
+    <item
+        android:id="@+id/recording"
+        android:icon="@drawable/home"
+        android:title="home"
+        app:cnb_backgroundColor="#ffffff"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary" />
+
+
 
 
 </menu>

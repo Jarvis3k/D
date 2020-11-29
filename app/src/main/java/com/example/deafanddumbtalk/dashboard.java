@@ -42,6 +42,10 @@ public class dashboard extends AppCompatActivity {
                         fragment = new dash();
                         break;
 
+                    case R.id.recording:
+                        fragment = new recording();
+                        break;
+
 
                 }
                 if (fragment != null) {

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -123,6 +124,7 @@ public class dash extends Fragment {
     }
 
     public void logout() {
+
 
         mAuth.signOut();
         Intent intent =  new Intent(getActivity(), Login.class);
